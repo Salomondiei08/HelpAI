@@ -58,10 +58,20 @@ def connectToDbAndUseSpecificIndex(api_key, environment, index_name):
 # Talk to GPT
 def askGPT(text):
     openai.api_key = OPENAI_API_KEY
+
+    # Method for GPT4 (You can use it if you have access to the GPT4 API)
     response = openai.ChatCompletion.create(
    model="gpt-4",
    messages=[
       {"role": "user", "content": text}
    ]
 )
+
+    # Method for GPT3.5
+#     response = openai.Completion.create(
+#    model="gpt-3.5-turbo",
+#    messages=[
+#       {"role": "user", "content": text}
+#    ]
+# )
     return print(response.choices[0]["message"]["content"])
