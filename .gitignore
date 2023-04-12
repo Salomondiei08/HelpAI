@@ -1,0 +1,10 @@
+# Files
+utils/secret_keys.py
+.DS_Store
+
+
+# Folders
+utils/__pycache__
+.vscode
+__pycache__
+venv
