@@ -37,5 +37,3 @@ Thank you for your interest in contributing to HelpAI!
 
 - DIEI Salomon
 - ADJETEY Michel
-
-![HelpAI Contributors](https://example.com/helpai-contributors.png)
